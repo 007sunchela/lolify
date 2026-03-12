@@ -17,7 +17,7 @@ void main() async {
   await dotenv.load();
   runApp(
     DevicePreview(
-      enabled: false,
+      enabled: true,
       builder: (context) => MultiProvider(
         providers: [
           ChangeNotifierProvider(
