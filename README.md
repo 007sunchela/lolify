@@ -69,35 +69,23 @@ UI взаимодействует с логикой через Provider, а ло
 Пользователь может выбрать приложение в светлой или темной теме. Последняя установленная
 пользователем тема приложения сохраняется при последующих запусках.
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/light_1.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/light_2.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/light_3.jpg" alt="Логотип 3" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/light_4.jpg" alt="Логотип 3" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/light_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/light_2.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/light_3.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/light_4.jpg" width="300" /></td>
+  </tr>
+</table>
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/dark_1.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/dark_2.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/dark_3.jpg" alt="Логотип 3" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/dark_4.jpg" alt="Логотип 3" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/dark_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/dark_2.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/dark_3.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/dark_4.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ### Поиск мемов
 
@@ -105,84 +93,62 @@ UI взаимодействует с логикой через Provider, а ло
 Мемы оформлены в виде списка из карточек с описанием и изображением мема. С каждым мемом есть три
 действия: добавить мем в избранное, скачать мем на телефон, поделиться мемом в Интернете.
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/search_1.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/search_2.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/search_3.jpg" alt="Логотип 3" />
-  </div>
-    <div>
-    <img src="./assets/screenshots/search_4.jpg" alt="Логотип 1" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/search_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_2.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_3.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_4.jpg" width="300" /></td>
+  </tr>
+</table>
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/search_5.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/search_6.jpg" alt="Логотип 3" />
-  </div>
-    <div>
-    <img src="./assets/screenshots/search_9.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/search_7.jpg" alt="Логотип 2" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/search_5.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_6.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_9.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/search_7.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ### Генерация мема
 
 На странице генерации пользователь получает рандомный мем. Совокупные действия с мемом такие же,
 что и на странице поиска.
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/generate_1.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/generate_2.jpg" alt="Логотип 3" />
-  </div>
-    <div>
-    <img src="./assets/screenshots/generate_4.jpg" alt="Логотип 1" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/generate_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/generate_2.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/generate_4.jpg" width="300" /></td>
+  </tr>
+</table>
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/generate_3.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/generate_5.jpg" alt="Логотип 3" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/generate_3.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/generate_5.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ### Избранное
 
 На странице избранного пользователь может видеть добавленные мемы. Выбранный мем может удалить. (скачать или поделиться также есть)
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/favourite_1.jpg" alt="Логотип 2" />
-  </div>
-    <div>
-    <img src="./assets/screenshots/favourite_3.jpg" alt="Логотип 1" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/favourite_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/favourite_3.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ### Адаптивный дизайн
 
 Когда приложение находится в горизонтальной ориентации, то список карточек мемов преобразуется в сетку по две колонки. (в случае ширины экрана больше, чем 600 пикселей)
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/adaptive_search_1.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/adaptive_search_3.jpg" alt="Логотип 2" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/adaptive_search_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/adaptive_search_3.jpg" width="300" /></td>
+  </tr>
+</table>
