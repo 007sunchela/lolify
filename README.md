@@ -55,20 +55,14 @@ UI взаимодействует с логикой через Provider, а ло
 При первом запуске приложения открывается заставка приложения. При последующих запусках
 приложения заставка больше не появляется.
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
-  <div>
-    <img src="./assets/screenshots/intro_1.jpg" alt="Логотип 1" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/intro_2.jpg" alt="Логотип 2" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/intro_3.jpg" alt="Логотип 3" />
-  </div>
-  <div>
-    <img src="./assets/screenshots/intro_4.jpg" alt="Логотип 3" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="./assets/screenshots/intro_1.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/intro_2.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/intro_3.jpg" width="300" /></td>
+    <td><img src="./assets/screenshots/intro_4.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ### Цветовая тема
 
